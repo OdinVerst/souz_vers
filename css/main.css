@@ -1,0 +1,117 @@
+body {
+    font-family: 'Ubuntu', sans-serif !important;
+}
+
+.header {
+    margin: 30px 0;
+}
+
+.logo__head {
+    display: inline-block;
+}
+
+.top__desc {
+    display: inline-block;
+    font-weight: bold;
+    font-size: 18px;
+    vertical-align: middle;
+    width: 200px;
+    line-height:20px;
+    margin-left: 18px;
+    color: #d53e48;
+}
+
+.address__head:before{
+    content: "";
+    height: 33px;
+    width: 33px;
+    background: url("../images/icon/sity.png") center center no-repeat;
+    border: 1px #c1c1c1 solid;
+    border-radius: 50%;
+    display: inline-block;
+    float: left;
+    vertical-align: middle;
+    margin-right: 8px;
+}
+
+.select__city, .city__list, .head__phone, .address__line {
+    margin: 0;
+}
+
+.contact__head:before{
+    content: "";
+    height: 33px;
+    width: 33px;
+    background: url("../images/icon/call.png") center center no-repeat;
+    border: 1px #c1c1c1 solid;
+    border-radius: 50%;
+    display: inline-block;
+    float: left;
+    vertical-align: middle;
+    margin-right: 8px;
+}
+
+.city__list {
+    color: #d53e48;
+    list-style-type: none;
+    text-decoration: dotted;
+}
+
+.menu__list li {
+    display: inline;
+    padding: 14px 0;
+    cursor: pointer;
+}
+
+.menu__list li:hover {
+    background-color: #e3565e;
+}
+
+.menu__list {
+    background-color: #cd353d;
+    color: #ffffff;
+    padding: 12px 0;
+}
+
+.slider__full {
+    padding: 0 !important;
+}
+
+.slide__content {
+    width: 100%;
+}
+.sub__menu {
+    height: 250px;
+    margin: 45px 0 22px;
+}
+
+.cat__sub {
+    width: 100%;
+}
+
+.hr__line {
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 24px;
+    font-weight: bold;
+    color: #313131;
+    overflow: hidden;
+}
+.hr__line:before,
+.hr__line:after {
+    background-color: #b0b0b0;
+    content: "";
+    display: inline-block;
+    height: 1px;
+    position: relative;
+    vertical-align: middle;
+    width: 50%;
+}
+.hr__line:before {
+    right: 0.5em;
+    margin-left: -50%;
+}
+.hr__line:after {
+    left: 0.5em;
+    margin-right: -50%;
+}
