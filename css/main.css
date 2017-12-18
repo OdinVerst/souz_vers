@@ -102,10 +102,31 @@ body {
 .sub__menu {
     height: 250px;
     margin: 45px 0 22px;
+    position: relative;
+}
+
+.tit__sub {
+    position: absolute;
+    bottom: 0;
+    color: #ffffff;
+    font-size: 24px;
+    text-transform: uppercase;
+    font-weight: bold;
+    padding: 10px;
+    margin-left: 50px;
+    left: 0;
+    margin-bottom: 20px;
+}
+
+.tit__sub p {
+    background: rgba(205, 53, 61, 0.61);
+    display: inline-block;
 }
 
 .cat__sub {
-    width: 100%;
+    /*width: 100%;*/
+    display: block;
+    margin: 0 auto;
 }
 
 .hr__line {
@@ -133,6 +154,17 @@ body {
 .hr__line:after {
     left: 0.5em;
     margin-right: -50%;
+}
+.seller__bl {
+    /*border: 1px solid #b0b0b0;*/
+    padding: 0 !important;
+}
+.seller__bl div{
+    border: 1px solid #b0b0b0;
+}
+
+.tit__partner {
+    padding: 0 !important;
 }
 
 .about__comp {
@@ -168,5 +200,9 @@ body {
 
 .footer__menu li:hover {
     text-decoration: solid;
+    color: #cd353d;
+}
+
+a {
     color: #cd353d;
 }
