@@ -68,19 +68,19 @@ body {
 
 .select__city:before {
     content: "▼";
-    padding: 0 8px;
-    font-size: 12px;
+    display: inline-block;
+    background: white;
     position: absolute;
-    right: 8px;
-    top: 4px;
-    z-index: 1;
+    right: -5px;
+    top: 2px;
+    z-index: 2;
+    width: 30px;
+    height: 26px;
     text-align: center;
-    width: 10%;
-    height: 100%;
-    pointer-events: none;
-    box-sizing: border-box;
-    color: #d53e48;
-    display: block;
+    line-height: 26px;
+    border: 2px solid #ddd;
+    transform: rotate(90deg);
+    cursor: pointer;
 }
 
 select {
@@ -151,6 +151,10 @@ select {
 
 .drop__list-text {
     color: #d53e48;
+}
+
+.sub__menu-col:hover {
+    background: #bfbfbf;
 }
 
 .menu__list {
@@ -393,4 +397,32 @@ select {
 .alfa__foot a:hover {
     text-decoration: none;
     color: #d53e48;
+}
+
+
+.partner-container {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+
+    -webkit-flex-flow: row wrap;
+    justify-content: space-around;
+}
+
+.partner-item {
+    border: 1px solid #b0b0b0;
+    font-weight: bold;
+    text-align: center;
+    flex: 1 1 20%;
+    margin: -1px 0 0 -1px;
+}
+
+.wh__b {
+    padding: 50px 0 !important;
 }
