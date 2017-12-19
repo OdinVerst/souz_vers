@@ -40,15 +40,15 @@
         <nav class="navigation__menu" role='navigation'>
             <ul class="list__menu">
                 <li class="item__menu"><a href="#"><span>Главная</span></a></li>
-                <li class="item__menu">
+                <li class="item__menu dropdown__menu">
                     <a href="#"><span>Каталог товаров</span></a>
-                    <!--<ul class="list__menu">-->
-                    <!--<li class="item__menu"><a href="#"><span>Главная</span></a></li>-->
-                    <!--<li class="item__menu"><a href="#"><span>Каталог товаров</span></a></li>-->
-                    <!--<li class="item__menu"><a href="#"><span>О производителе</span></a></li>-->
-                    <!--<li class="item__menu"><a href="#"><span>Где купить</span></a></li>-->
-                    <!--<li class="item__menu"><a href="#"><span>Сайт производителя</span></a></li>-->
-                    <!--</ul>-->
+                    <ul class="list__menu drop__list__menu">
+                    <li class="item__menu"><a href="#"><span class="drop__list-text">Главная</span></a></li>
+                    <li class="item__menu"><a href="#"><span class="drop__list-text">Каталог товаров</span></a></li>
+                    <li class="item__menu"><a href="#"><span class="drop__list-text">О производителе</span></a></li>
+                    <li class="item__menu"><a href="#"><span class="drop__list-text">Где купить</span></a></li>
+                    <li class="item__menu"><a href="#"><span class="drop__list-text">Сайт производителя</span></a></li>
+                    </ul>
                 </li>
                 <li class="item__menu"><a href="#"><span>О производителе</span></a></li>
                 <li class="item__menu"><a href="#"><span>Где купить</span></a></li>
@@ -93,21 +93,26 @@
     </div>
 </div>
 <div class="container">
-    <div class="sub__menu col-md-6"><img class="cat__sub" src="images/content/cat_four.png">
-        <div class="tit__sub"><p>Столешницы и</p><br>
-            <p>фартуки</p></div>
+    <div class="sub__menu col-md-6">
+        <div class="wrap__sub"><img class="cat__sub" src="images/content/cat_four.png">
+            <div class="tit__sub"><p>Столешницы и</p><br>
+                <p>фартуки</p></div>
+        </div>
     </div>
-    <div class="sub__menu col-md-6"><img class="cat__sub" src="images/content/cat_four.png">
+    <div class="sub__menu col-md-6">
+        <div class="wrap__sub"><img class="cat__sub" src="images/content/cat_four.png">
         <div class="tit__sub"><p>Мебельные</p><br>
-            <p> профили</p></div>
+            <p> профили</p></div></div>
     </div>
-    <div class="sub__menu col-md-6"><img class="cat__sub" src="images/content/cat_four.png">
+    <div class="sub__menu col-md-6">
+        <div class="wrap__sub"><img class="cat__sub" src="images/content/cat_four.png">
         <div class="tit__sub"><p>Фасады</p><br>
-            <p> для кухни</p></div>
+            <p> для кухни</p></div></div>
     </div>
-    <div class="sub__menu col-md-6"><img class="cat__sub" src="images/content/cat_four.png">
+    <div class="sub__menu col-md-6">
+        <div class="wrap__sub"><img class="cat__sub" src="images/content/cat_four.png">
         <div class="tit__sub"><p>Глянцевые</p><br>
-            <p> фасадные полотна</p></div>
+            <p> фасадные полотна</p></div></div>
     </div>
 </div>
 <div class="hr__line">Где купить</div>
@@ -119,8 +124,9 @@
                 <p> официальный представитьель ТД “Союз” в Новосибирске</p></div>
         </div>
         <div class="tit__partner col-md-6">
-            <div class="col-md-6"></div>
-            <div class="col-md-6"></div>
+            <div class="col-md-6"><a>8 (383) 209-28-22</a>
+                <p>Офис: г. Новосибирск, ул. Советская, д.30 Скл</p></div>
+            <div class="col-md-6"><a href="#" class="btn__more">Подробнее</a></div>
         </div>
     </div>
     <div class="seller__bl col-md-12">
@@ -130,8 +136,9 @@
                 <p> официальный представитьель ТД “Союз” в Новосибирске</p></div>
         </div>
         <div class="tit__partner col-md-6">
-            <div class="col-md-6"></div>
-            <div class="col-md-6"></div>
+            <div class="col-md-6"><a>8 (383) 209-28-22</a>
+                <p>Офис: г. Новосибирск, ул. Советская, д.30 Скл</p></div>
+            <div class="col-md-6"><a href="#" class="btn__more">Подробнее</a></div>
         </div>
     </div>
 </div>
@@ -150,13 +157,16 @@
 
             <ul>
                 <li><p><a href="#">мебельная фурнитура</a> (направляющие, ручки, металлобоксы);</p></li>
-                <li><p><a href="#"> мебельные комплектующие</a> (столешницы, фартуки, фасады, .....плинтусы);</p></li>
-                <li><p>строительно-отделочные материалы(стеновые панели МДФ, .....огнестойкие панели, потолочные галтели);</p></li>
+                <li><p><a href="#"> мебельные комплектующие</a> (столешницы, фартуки, фасады, плинтусы);</p></li>
+                <li><p>строительно-отделочные материалы(стеновые панели МДФ, огнестойкие панели, потолочные
+                    галтели);</p></li>
                 <li><p>древесно-плитные материалы (ЛМДФ);</p></li>
             </ul>
 
-            <p>С помощью удобного каталога нашего интернет-магазина мебельных деталей с фотографиями и подробным описанием
-            товара легко сделать необходимую покупку по выгодной цене и наслаждаться комфортом в вашем доме. Сделайте
+            <p>С помощью удобного каталога нашего интернет-магазина мебельных деталей с фотографиями и подробным
+                описанием
+                товара легко сделать необходимую покупку по выгодной цене и наслаждаться комфортом в вашем доме.
+                Сделайте
                 заказ прямо сейчас, пройдя процедуру оформления заказа в “корзине”, или просто позвоните нам.</p>
         </div>
     </div>
