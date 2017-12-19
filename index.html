@@ -9,6 +9,10 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
           integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css?family=Ubuntu" rel="stylesheet">
+    <script
+            src="https://code.jquery.com/jquery-3.2.1.min.js"
+            integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+            crossorigin="anonymous"></script>
 </head>
 <body>
 <div class="container">
@@ -18,25 +22,40 @@
             <div class="top__desc">Портал мебельных комплектующих</div>
         </div>
         <div class="address__head col-md-3">
-            <p class="select__city">Выберите ваш город:</p>
-            <ul class="city__list">
-                <li>Новосибирск</li>
-            </ul>
+            <p class="select__cit-pre">Выберите ваш город:</p>
+            <select class="select__city">
+                <option>Новосибирск</option>
+                <option>Ketchup</option>
+                <option>Relish</option>
+            </select>
+
+
         </div>
         <div class="contact__head col-md-4">
             <p class="head__phone">+7 (904) 837-74-44</p>
             <p class="address__line">г. Новосибирск, ул. Победы 9 мая, 13б</p>
         </div>
     </header>
-    <nav class="nav col-md-12">
-        <ul class="menu__list">
-            <li>Главная</li>
-            <li>Каталог товаров</li>
-            <li>О производителе</li>
-            <li>Где купить</li>
-            <li>Сайт производителя</li>
-        </ul>
-    </nav>
+    <div class="row col-md-12">
+        <nav class="navigation__menu" role='navigation'>
+            <ul class="list__menu">
+                <li class="item__menu"><a href="#"><span>Главная</span></a></li>
+                <li class="item__menu">
+                    <a href="#"><span>Каталог товаров</span></a>
+                    <!--<ul class="list__menu">-->
+                    <!--<li class="item__menu"><a href="#"><span>Главная</span></a></li>-->
+                    <!--<li class="item__menu"><a href="#"><span>Каталог товаров</span></a></li>-->
+                    <!--<li class="item__menu"><a href="#"><span>О производителе</span></a></li>-->
+                    <!--<li class="item__menu"><a href="#"><span>Где купить</span></a></li>-->
+                    <!--<li class="item__menu"><a href="#"><span>Сайт производителя</span></a></li>-->
+                    <!--</ul>-->
+                </li>
+                <li class="item__menu"><a href="#"><span>О производителе</span></a></li>
+                <li class="item__menu"><a href="#"><span>Где купить</span></a></li>
+                <li class="item__menu"><a href="#"><span>Сайт производителя</span></a></li>
+            </ul>
+        </nav>
+    </div>
 </div>
 <div class="slider__full col-md-12">
     <div id="myCarousel" class="carousel slide" data-ride="carousel">
@@ -75,47 +94,70 @@
 </div>
 <div class="container">
     <div class="sub__menu col-md-6"><img class="cat__sub" src="images/content/cat_four.png">
-        <div class="tit__sub"><p>Столешницы и</p><p> фартуки</p></div></div>
+        <div class="tit__sub"><p>Столешницы и</p><br>
+            <p>фартуки</p></div>
+    </div>
     <div class="sub__menu col-md-6"><img class="cat__sub" src="images/content/cat_four.png">
-        <p class="tit__sub">Мебельные профили</p></div>
+        <div class="tit__sub"><p>Мебельные</p><br>
+            <p> профили</p></div>
+    </div>
     <div class="sub__menu col-md-6"><img class="cat__sub" src="images/content/cat_four.png">
-        <p class="tit__sub">Фасады для кухни</p></div>
+        <div class="tit__sub"><p>Фасады</p><br>
+            <p> для кухни</p></div>
+    </div>
     <div class="sub__menu col-md-6"><img class="cat__sub" src="images/content/cat_four.png">
-        <p class="tit__sub">Глянцевые фасадные полотна</p></div>
+        <div class="tit__sub"><p>Глянцевые</p><br>
+            <p> фасадные полотна</p></div>
+    </div>
 </div>
 <div class="hr__line">Где купить</div>
-<div class="container">
+<div class="container seller_main">
     <div class="seller__bl col-md-12">
-        <div class="tit__partner col-md-6"><img src="images/content/partner.png"><div><p>Компания “Стронг”</p><p> официальный представитьель ТД “Союз” в Новосибирске</p></div></div>
-        <div class="col-md-6">2</div>
+        <div class="tit__partner col-md-6">
+            <div class="col-md-6"><img src="images/content/partner.png"></div>
+            <div class="col-md-6"><p>Компания “Стронг”</p>
+                <p> официальный представитьель ТД “Союз” в Новосибирске</p></div>
+        </div>
+        <div class="tit__partner col-md-6">
+            <div class="col-md-6"></div>
+            <div class="col-md-6"></div>
+        </div>
     </div>
     <div class="seller__bl col-md-12">
-        <div class="tit__partner col-md-6"><img src="images/content/partner.png"></div>
-        <div class="col-md-6">4</div>
+        <div class="tit__partner col-md-6">
+            <div class="col-md-6"><img src="images/content/partner.png"></div>
+            <div class="col-md-6"><p>Компания “Стронг”</p>
+                <p> официальный представитьель ТД “Союз” в Новосибирске</p></div>
+        </div>
+        <div class="tit__partner col-md-6">
+            <div class="col-md-6"></div>
+            <div class="col-md-6"></div>
+        </div>
     </div>
 </div>
 <div class="hr__line">О производителе</div>
 <div class="container">
     <div class="about__comp clearfix">
-        <div class="left__about col-md-6">Если вас заинтересовала покупка мебельных деталей в СПб оптом или в розницу
+        <div class="left__about col-md-6"><p>Если вас заинтересовала покупка мебельных деталей в СПб оптом или в розницу
             высокого качества и по низким ценам – добро пожаловать в наш интернет-магазин. Мы рады предложить вам
             огромный ассортимент комплектующих и аксессуаров от производителя с отличными характеристиками долговечности
             и надежности. В магазине мебельной фурнитуры, а также комплектующих и строительно-отделочных материалов в
-            СПб найдется все необходимое для создания неповторимого стиля на вашей кухне, спальне или гостиной.
-
-            Вы можете лично убедиться в качестве наших товаров, посетив торговый зал магазина фурнитуры для мебели в
-            Санкт-Петербурге.
+            СПб найдется все необходимое для создания неповторимого стиля на вашей кухне, спальне или гостиной.</p>
+            <p>Вы можете лично убедиться в качестве наших товаров, посетив торговый зал магазина фурнитуры для мебели в
+                Санкт-Петербурге.</p>
         </div>
-        <div class="left__about col-md-6">Мы занимаемся продажей следующих видов товаров:
+        <div class="left__about col-md-6"><p>Мы занимаемся продажей следующих видов товаров:</p>
 
-            мебельная фурнитура (направляющие, ручки, металлобоксы);
-            мебельные комплектующие (столешницы, фартуки, фасады, .....плинтусы);
-            строительно-отделочные материалы(стеновые панели МДФ, .....огнестойкие панели, потолочные галтели);
-            древесно-плитные материалы (ЛМДФ);
+            <ul>
+                <li><p><a href="#">мебельная фурнитура</a> (направляющие, ручки, металлобоксы);</p></li>
+                <li><p><a href="#"> мебельные комплектующие</a> (столешницы, фартуки, фасады, .....плинтусы);</p></li>
+                <li><p>строительно-отделочные материалы(стеновые панели МДФ, .....огнестойкие панели, потолочные галтели);</p></li>
+                <li><p>древесно-плитные материалы (ЛМДФ);</p></li>
+            </ul>
 
-            С помощью удобного каталога нашего интернет-магазина мебельных деталей с фотографиями и подробным описанием
+            <p>С помощью удобного каталога нашего интернет-магазина мебельных деталей с фотографиями и подробным описанием
             товара легко сделать необходимую покупку по выгодной цене и наслаждаться комфортом в вашем доме. Сделайте
-            заказ прямо сейчас, пройдя процедуру оформления заказа в “корзине”, или просто позвоните нам.
+                заказ прямо сейчас, пройдя процедуру оформления заказа в “корзине”, или просто позвоните нам.</p>
         </div>
     </div>
 </div>
@@ -125,17 +167,17 @@
         <div class="col-md-3"><img src="images/main_logo.png"></div>
         <div class="col-md-9">
             <ul class="menu__list footer__menu">
-                <li>Главная</li>
-                <li>Каталог товаров</li>
-                <li>О производителе</li>
-                <li>Где купить</li>
-                <li>Сайт производителя</li>
+                <li><a href="#">Столешницы и фартуки</a></li>
+                <li><a href="#">Мебельные профили</a></li>
+                <li><a href="#">Фасады для кухни</a></li>
+                <li><a href="#">Где купить</a></li>
+                <li><a href="#">Глянцевые фасадные полотна</a></li>
             </ul>
         </div>
-        <div class="col-md-5"><p>2017 Промышленная группа “СОЮЗ” Все права защищены.</p></div>
-        <div class="phone__foot col-md-3"><a>8 (812) 331-38-02</a>
+        <div class="col-md-5"><p class="copywrite">2017 Промышленная группа “СОЮЗ” Все права защищены.</p></div>
+        <div class="phone__foot col-md-3"><a href="tel:+78123313802">8 (812) 331-38-02</a>
             <p>г. Новосибирск, ул. Победы 9 мая, 13б</p></div>
-        <div class="alfa__foot col-md-4"><p>Продвижение сайта:</p><a>Альфа-Сайт</a></div>
+        <div class="alfa__foot col-md-4"><p>Продвижение сайта:</p><a href="#">Альфа-Сайт</a></div>
     </div>
 </footer>
 
