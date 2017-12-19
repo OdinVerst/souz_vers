@@ -196,9 +196,10 @@ select {
 }
 .sub__menu {
     /*height: 250px;*/
-    margin: 45px 0 22px;
-    padding: 0 35px !important;
+    /*margin: 45px 0 22px;*/
+    padding: 0 !important;
     overflow: hidden;
+    margin: 10px 0;
 }
 .sub__menu img {
     width: 100%;
@@ -341,6 +342,7 @@ select {
 .footer__content {
     margin: 45px 0;
     font-weight: bold;
+    padding: 0;
 }
 
 .footer__menu {
@@ -429,4 +431,146 @@ select {
 
 .partner-item img {
     width: 100%;
+}
+@media screen and (min-width: 768px) {
+    .sub__menu{
+        padding: 0 35px !important;
+        margin: 45px 0 22px;
+    }
+}
+@media screen and (max-width: 768px) {
+    .navigation__menu{
+        /*display: none;*/
+    }
+}
+
+.main__menu {
+    padding: 0 !important;
+}
+
+
+/*Comapny*/
+.company__tit {
+    padding: 50px 0;
+}
+
+.logo__comp {
+    text-align: right;
+}
+
+.tit__h1 {
+    margin: 0;
+    font-weight: bold;
+}
+.sub__h1 {
+    color: #cd353d;
+    font-weight: bold;
+}
+.company__info {
+    padding: 50px 0;
+}
+
+.company__tit-b {
+    font-weight: bold;
+}
+
+.company__address {
+    margin-bottom: 45px;
+}
+
+.company__photo img{
+    width: 100%;
+}
+
+.company__map {
+    margin-bottom: 30px;
+}
+
+.company__photo-more {
+    text-align: right;
+}
+
+.company__photo-more a {
+    border-bottom: 1px dashed;
+    color: #cd353d;
+}
+
+.company__photo-more a:hover {
+    text-decoration: none;
+    border-bottom: none;
+    color: #cd353d;
+}
+
+.company__photo {
+    margin-bottom: 20px;
+}
+
+/*Product*/
+.product__tit {
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.product__ul {
+    color: #cd353d;
+    padding-left: 25px;
+}
+
+.product__ul span{
+    color: #313131;
+}
+.product__color img {
+    border: 2px solid #bfbfbf;
+    margin: 20px 20px 0 0;
+}
+.product__color img:hover{
+     border: 2px solid #cd353d;
+}
+.product__btn {
+    margin-top: 35px;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.color__el {
+    display: inline-block;
+    position: relative;
+}
+
+.product__slider {
+    width: 364px;
+}
+
+.interer__slider {
+    margin: 50px 0;
+}
+.breadcrumbs{
+    padding: 0;
+    margin-top: 10px;
+}
+
+.breadcrumbs li {
+    cursor: pointer;
+    display: inline;
+    color: #cd353d;
+    text-decoration: underline;
+}
+
+.breadcrumbs li:after {
+    content: "»";
+    display: inline-block;
+    color: #313131;
+    margin: 0 5px;
+}
+.breadcrumbs li:last-child{
+    color: #b0b0b0;
+    cursor: auto;
+    text-decoration: none;
+}
+.breadcrumbs li:last-child:after {
+    display: none;
+}
+
+.product__tit__h1 {
+    padding-bottom: 30px;
 }
