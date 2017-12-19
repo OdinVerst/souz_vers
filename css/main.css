@@ -195,7 +195,7 @@ select {
     width: 100%;
 }
 .sub__menu {
-    height: 250px;
+    /*height: 250px;*/
     margin: 45px 0 22px;
     padding: 0 35px !important;
     overflow: hidden;
@@ -425,4 +425,8 @@ select {
 
 .wh__b {
     padding: 50px 15px !important;
+}
+
+.partner-item img {
+    width: 100%;
 }
