@@ -67,28 +67,28 @@ body {
     outline:none;
 }
 
-.select__city:before {
-    content: "▼";
-    display: inline-block;
-    background: white;
-    position: absolute;
-    right: -5px;
-    top: 2px;
-    z-index: 2;
-    width: 30px;
-    height: 26px;
-    text-align: center;
-    line-height: 26px;
-    border: 2px solid #ddd;
-    transform: rotate(90deg);
-    cursor: pointer;
-}
+/*.select__city:before {*/
+    /*content: "▼";*/
+    /*display: inline-block;*/
+    /*background: white;*/
+    /*position: absolute;*/
+    /*right: -5px;*/
+    /*top: 2px;*/
+    /*z-index: 2;*/
+    /*width: 30px;*/
+    /*height: 26px;*/
+    /*text-align: center;*/
+    /*line-height: 26px;*/
+    /*border: 2px solid #ddd;*/
+    /*transform: rotate(90deg);*/
+    /*cursor: pointer;*/
+/*}*/
 
 select {
-    padding-right: 25px;
-    /*-webkit-appearance: none;*/
-    /*-moz-appearance: none;*/
-    /*appearance: none;*/
+    /*padding-right: 25px;*/
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
 }
 
 
@@ -237,7 +237,7 @@ select {
 }
 
 .tit__sub p {
-    background: rgba(205, 53, 61, 0.61);
+    background: rgba(205, 53, 61, 0.90);
     display: inline-block;
     margin: 0;
     padding: 0 5px;
@@ -496,6 +496,7 @@ select {
 .sub__h1 {
     color: #cd353d;
     font-weight: bold;
+    margin-top: 10px;
 }
 .company__info {
     padding: 50px 0;
@@ -617,5 +618,9 @@ select {
 
 .slider__product img {
     width: 100%;
-    height: 420px !important;
+    /*height: 420px !important;*/
+}
+
+.desc__product-f {
+    margin-top: 0;
 }
