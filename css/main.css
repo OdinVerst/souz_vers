@@ -443,6 +443,18 @@ select {
     margin-left: -82px;
 }
 
+.partner__name {
+    color: #d53e48;
+    font-weight: bold;
+    font-style: italic;
+    font-size: 16px;
+    margin-bottom: 0;
+}
+
+.partner__phone {
+    font-size: 16px;
+}
+
 .wh__b {
     padding: 50px 15px !important;
 }

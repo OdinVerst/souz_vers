@@ -18,16 +18,16 @@
 <body>
 <div class="container">
     <header class="header clearfix">
-        <div class="logo__head col-md-5">
+        <div class="logo__head col-md-5"><a href="index.html" style="text-decoration: none">
             <img src="images/main_logo.png">
-            <div class="top__desc">Портал мебельных комплектующих</div>
+            <div class="top__desc">Портал мебельных комплектующих</div></a>
         </div>
         <div class="address__head col-md-3">
             <p class="select__cit-pre">Выберите ваш город:</p>
             <select class="select__city">
                 <option>Новосибирск</option>
-                <option>Ketchup</option>
-                <option>Relish</option>
+                <option>Новосибирск2</option>
+                <option>Новосибирск3</option>
             </select>
 
 
@@ -37,27 +37,25 @@
             <p class="address__line">г. Новосибирск, ул. Победы 9 мая, 13б</p>
         </div>
     </header>
-    <div class="main__menu row col-md-12">
+    <div class="row col-md-12">
         <nav class="navigation__menu" role='navigation'>
             <ul class="list__menu">
-                <li class="item__menu"><a href="#"><span>Главная</span></a></li>
+                <li class="item__menu"><a href="index.html"><span>Главная</span></a></li>
                 <li class="item__menu dropdown__menu">
-                    <a href="#"><span>Каталог товаров</span></a>
+                    <a href="product.html"><span>Каталог товаров</span></a>
                     <ul class="list__menu drop__list__menu">
-                        <li class="sub__menu-col item__menu"><a href="#"><span
-                                class="drop__list-text">Главная</span></a></li>
-                        <li class="sub__menu-col item__menu"><a href="#"><span
-                                class="drop__list-text">Каталог товаров</span></a></li>
-                        <li class="sub__menu-col item__menu"><a href="#"><span
-                                class="drop__list-text">О производителе</span></a></li>
-                        <li class="sub__menu-col item__menu"><a href="#"><span class="drop__list-text">Где купить</span></a>
-                        </li>
-                        <li class="sub__menu-col item__menu"><a href="#"><span class="drop__list-text">Сайт производителя</span></a>
+                        <li class="sub__menu-col item__menu"><a href="product.html"><span
+                                class="drop__list-text">Столешницы и фартуки</span></a></li>
+                        <li class="sub__menu-col item__menu"><a href="product.html"><span
+                                class="drop__list-text">Мебельные профили</span></a></li>
+                        <li class="sub__menu-col item__menu"><a href="product.html"><span
+                                class="drop__list-text">Фасады для кухни</span></a></li>
+                        <li class="sub__menu-col item__menu"><a href="product.html"><span class="drop__list-text">Глянцевые фасады</span></a>
                         </li>
                     </ul>
                 </li>
-                <li class="item__menu"><a href="#"><span>О производителе</span></a></li>
-                <li class="item__menu"><a href="#"><span>Где купить</span></a></li>
+                <li class="item__menu"><a href="#proizvod"><span>О производителе</span></a></li>
+                <li class="item__menu"><a href="#kupit"><span>Где купить</span></a></li>
                 <li class="item__menu"><a href="#"><span>Сайт производителя</span></a></li>
             </ul>
         </nav>
@@ -95,7 +93,7 @@
                         </div>
 
                         <div class="item">
-                            <img src="images/content/porduct.png" alt="Chicago">
+                            <img src="images/content/porduct2.png" alt="Chicago">
                         </div>
                     </div>
                     </a>
@@ -128,18 +126,18 @@
 
 
 
-<div class="hr__line">Где купить</div>
+<div id="kupit" class="hr__line">Где купить</div>
 <div class="wh__b container">
     <ul class="partner-container">
-        <li class="partner-item"><img src="images/content/partner.png"></li>
-        <li class="partner-item"><p>Компания “Стронг”</p>
+        <li class="partner-item partner__img"><img src="images/content/partner.png"></li>
+        <li class="partner-item"><p class="partner__name">Компания “Стронг”</p>
             <p> официальный представитьель ТД “Союз” в Новосибирске</p></li>
-        <li class="phone__foot partner-item"><a>8 (383) 209-28-22</a>
+        <li class="phone__foot partner-item"><a class="partner__phone">8 (383) 209-28-22</a>
             <p>Офис: г. Новосибирск, ул. Советская, д.30 Скл</p></li>
-        <li class="partner-item"><a href="#" class="btn__more">Подробнее</a></li>
+        <li class="partner-item partner__img"><a href="company.html" class="btn__part btn__more">Подробнее</a></li>
     </ul>
 </div>
-<div class="hr__line">О производителе</div>
+<div id="proizvod" class="hr__line">О производителе</div>
 <div class="container">
     <div class="about__comp clearfix">
         <div class="left__about col-xs-12 col-md-6"><p>Если вас заинтересовала покупка мебельных деталей в СПб оптом
@@ -180,8 +178,6 @@
             <!-- Indicators -->
             <ol class="carousel-indicators">
                 <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-                <li data-target="#myCarousel" data-slide-to="1"></li>
-                <li data-target="#myCarousel" data-slide-to="2"></li>
             </ol>
 
             <!-- Wrapper for slides -->
