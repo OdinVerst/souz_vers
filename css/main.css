@@ -61,7 +61,8 @@ body {
     position: relative;
     display: inline-block;
     background: transparent;
-    border: none;
+    border: transparent;
+    border-bottom: 1px dashed #d53e48;
     color: #d53e48;
     outline:none;
 }
@@ -85,9 +86,9 @@ body {
 
 select {
     padding-right: 25px;
-    -webkit-appearance: none;
-    -moz-appearance: none;
-    appearance: none;
+    /*-webkit-appearance: none;*/
+    /*-moz-appearance: none;*/
+    /*appearance: none;*/
 }
 
 
@@ -423,6 +424,23 @@ select {
     text-align: center;
     flex: 1 1 20%;
     margin: -1px 0 0 -1px;
+    display: inline-grid;
+    align-content: center;
+    padding: 15px;
+
+}
+
+.partner__img {
+    display: block;
+    position: relative;
+    padding: 0;
+}
+
+.btn__part {
+    position: absolute;
+    top: 50%;
+    margin-top: -20px;
+    margin-left: -82px;
 }
 
 .wh__b {
@@ -446,6 +464,7 @@ select {
 
 .main__menu {
     padding: 0 !important;
+    margin-left: 0 !important;
 }
 
 
@@ -472,6 +491,7 @@ select {
 
 .company__tit-b {
     font-weight: bold;
+    font-size: 16px;
 }
 
 .company__address {
@@ -573,4 +593,8 @@ select {
 
 .product__tit__h1 {
     padding-bottom: 30px;
+}
+
+.no__pad-tit {
+    padding-left: 0 !important;
 }
