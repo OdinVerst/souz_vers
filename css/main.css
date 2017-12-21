@@ -441,6 +441,7 @@ select {
     top: 50%;
     margin-top: -20px;
     margin-left: -82px;
+    left: 50%;
 }
 
 .partner__name {
