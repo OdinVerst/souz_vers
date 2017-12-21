@@ -237,7 +237,7 @@ select {
 }
 
 .tit__sub p {
-    background: rgba(205, 53, 61, 0.90);
+    background: rgba(205, 53, 61, 100);
     display: inline-block;
     margin: 0;
     padding: 0 5px;
