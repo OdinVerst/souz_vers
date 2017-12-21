@@ -5,6 +5,7 @@
     <title>Title</title>
     <link rel="stylesheet" type="text/css" href="css/normalize.css">
     <link rel="stylesheet" type="text/css" href="css/main.css">
+    <link rel="stylesheet" type="text/css" href="css/jquery.fancybox.min.css">
     <!-- Latest compiled and minified CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
           integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
@@ -14,6 +15,7 @@
             src="https://code.jquery.com/jquery-3.2.1.min.js"
             integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
             crossorigin="anonymous"></script>
+    <script src="js/jquery.fancybox.js"></script>
 </head>
 <body>
 <div class="container">
@@ -90,11 +92,11 @@
 
                     <div class="carousel-inner">
                         <div class="item active">
-                            <img src="images/content/porduct.png" alt="Los Angeles">
+                            <img src="images/content/pr1.jpg" alt="Los Angeles">
                         </div>
 
                         <div class="item">
-                            <img src="images/content/porduct2.png" alt="Chicago">
+                            <img src="images/content/pr2.jpg" alt="Chicago">
                         </div>
                     </div>
                     </a>
@@ -114,14 +116,14 @@
             <div>
                 <p class="product__tit">Варианты цветовых решений:</p>
                 <div class="product__color">
-                    <div class="color__el"><img src="images/content/color1.jpg"></div>
-                    <div class="color__el"><img src="images/content/color2.jpg"></div>
-                    <div class="color__el"><img src="images/content/color3.jpg"></div>
-                    <div class="color__el"><img src="images/content/color4.jpg"></div>
-                    <div class="color__el"><img src="images/content/color5.jpg"></div>
-                    <div class="color__el"><img src="images/content/color6.JPG"></div>
-                    <div class="color__el"><img src="images/content/color7.jpg"></div>
-                    <div class="color__el"><img src="images/content/color8.jpg"></div>
+                    <div class="color__el"><a href="images/content/color1.jpg" rel="group" data-fancybox="images"><img src="images/content/color1.jpg"></a></div>
+                    <div class="color__el"><a href="images/content/color2.jpg" rel="group" data-fancybox="images"><img src="images/content/color2.jpg"></a></div>
+                    <div class="color__el"><a href="images/content/color3.jpg" rel="group" data-fancybox="images"><img src="images/content/color3.jpg"></a></div>
+                    <div class="color__el"><a href="images/content/color4.jpg" rel="group" data-fancybox="images"><img src="images/content/color4.jpg"></a></div>
+                    <div class="color__el"><a href="images/content/color5.jpg" rel="group" data-fancybox="images"><img src="images/content/color5.jpg"></a></div>
+                    <div class="color__el"><a href="images/content/color6.JPG" rel="group" data-fancybox="images"><img src="images/content/color6.JPG"></a></div>
+                    <div class="color__el"><a href="images/content/color7.jpg" rel="group" data-fancybox="images"><img src="images/content/color7.jpg"></a></div>
+                    <div class="color__el"><a href="images/content/color8.jpg" rel="group" data-fancybox="images"><img src="images/content/color8.jpg"></a></div>
                 </div>
             </div>
             <div class="product__btn">
@@ -261,7 +263,11 @@
         <div class="alfa__foot col-md-3"><p>Продвижение сайта: <a href="#">Альфа-Сайт</a></p></div>
     </div>
 </footer>
-
+<script>
+$('[data-fancybox]').fancybox({
+protect: true
+});
+</script>
 </body>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"
         integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
