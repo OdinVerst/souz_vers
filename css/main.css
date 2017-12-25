@@ -555,15 +555,19 @@ select {
 }
 .product__color img {
     border: 2px solid #bfbfbf;
-    margin: 20px 20px 0 0;
+    margin: 10px 20px 20px 0;
 }
 .product__color img:hover{
      border: 2px solid #cd353d;
 }
 .product__btn {
     margin-top: 35px;
-    text-align: center;
+    /*text-align: center;*/
     margin-bottom: 50px;
+}
+
+.product__decs {
+    margin-bottom: 25px;
 }
 
 .color__el {
