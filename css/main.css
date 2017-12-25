@@ -626,3 +626,6 @@ select {
 .desc__product-f {
     margin-top: 0;
 }
+.carousel-indicators li{
+border: 1px solid #808080 !important;
+}
