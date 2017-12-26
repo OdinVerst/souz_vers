@@ -633,3 +633,7 @@ select {
 .carousel-indicators li{
 border: 1px solid #808080 !important;
 }
+
+.btn__center {
+    text-align: center;
+}
