@@ -147,14 +147,14 @@
             <div>
                 <p class="product__tit">Варианты цветовых решений:</p>
                 <div class="product__color">
-                    <div class="color__el"><a href="images/content/color1.jpg" rel="group" data-fancybox="images"><img src="images/content/color1.jpg"></a></div>
-                    <div class="color__el"><a href="images/content/color2.jpg" rel="group" data-fancybox="images"><img src="images/content/color2.jpg"></a></div>
-                    <div class="color__el"><a href="images/content/color3.jpg" rel="group" data-fancybox="images"><img src="images/content/color3.jpg"></a></div>
-                    <div class="color__el"><a href="images/content/color4.jpg" rel="group" data-fancybox="images"><img src="images/content/color4.jpg"></a></div>
-                    <div class="color__el"><a href="images/content/color5.jpg" rel="group" data-fancybox="images"><img src="images/content/color5.jpg"></a></div>
-                    <div class="color__el"><a href="images/content/color6.JPG" rel="group" data-fancybox="images"><img src="images/content/color6.JPG"></a></div>
-                    <div class="color__el"><a href="images/content/color7.jpg" rel="group" data-fancybox="images"><img src="images/content/color7.jpg"></a></div>
-                    <div class="color__el"><a href="images/content/color8.jpg" rel="group" data-fancybox="images"><img src="images/content/color8.jpg"></a></div>
+                    <div class="color__el"><a href="images/content/color1.jpg" rel="group" data-fancybox="images" data-caption="My caption"><img src="images/content/color1.jpg"></a></div>
+                    <div class="color__el"><a href="images/content/color2.jpg" rel="group" data-fancybox="images" data-caption="My caption2"><img src="images/content/color2.jpg"></a></div>
+                    <div class="color__el"><a href="images/content/color3.jpg" rel="group" data-fancybox="images" data-caption="My caption3"><img src="images/content/color3.jpg"></a></div>
+                    <div class="color__el"><a href="images/content/color4.jpg" rel="group" data-fancybox="images" data-caption="My caption4"><img src="images/content/color4.jpg"></a></div>
+                    <div class="color__el"><a href="images/content/color5.jpg" rel="group" data-fancybox="images" data-caption="My caption5"><img src="images/content/color5.jpg"></a></div>
+                    <div class="color__el"><a href="images/content/color6.JPG" rel="group" data-fancybox="images" data-caption="My caption6"><img src="images/content/color6.JPG"></a></div>
+                    <div class="color__el"><a href="images/content/color7.jpg" rel="group" data-fancybox="images" data-caption="My caption7"><img src="images/content/color7.jpg"></a></div>
+                    <div class="color__el"><a href="images/content/color8.jpg" rel="group" data-fancybox="images" data-caption="My caption8"><img src="images/content/color8.jpg"></a></div>
                 </div>
             </div>
             <div class="product__btn">
@@ -294,10 +294,12 @@
         <div class="alfa__foot col-md-3"><p>Продвижение сайта: <a href="#">Альфа-Сайт</a></p></div>
     </div>
 </footer>
+
 <script>
-$('[data-fancybox]').fancybox({
-protect: true
-});
+    $('a.gallery').fancybox({
+        'titlePosition' : 'inside'
+    });
+
 </script>
 </body>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"
