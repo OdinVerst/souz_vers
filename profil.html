@@ -27,12 +27,13 @@
         </div>
         <div class="address__head col-md-3">
             <p class="select__cit-pre">Ваш город:</p>
-            <select class="select__city">
+            <select onchange="this.options[this.selectedIndex].value && (window.location = this.options[this.selectedIndex].value);" class="select__city">
                 <option>Новосибирск</option>
-                <option>СПБ</option>
-                <option>Москва</option>
-                <option>Самара</option>
+                <option value="https://www.tdsouz.ru/">СПБ</option>
+                <option value="https://msk.tdsouz.ru/">Москва</option>
+                <option value="https://smr.tdsouz.ru/">Самара</option>
             </select>
+
 
 
         </div>
